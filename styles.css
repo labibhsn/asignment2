@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 2.6;
+    background-color: #9c0000;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+section {
+    background-color: rgb(234, 165, 133);
+    border-radius: 400px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Fortune Generator Styles */
+.fortune-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#fortune-box {
+    padding: 20px;
+    border: 5px solid #333;
+    border-radius: 90px;
+    min-width: 300px;
+    text-align: center;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+
+.fortune-controls {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Stopwatch Styles */
+.stopwatch-container {
+    text-align: center;
+}
+
+#display {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 20px 0;
+    font-family: monospace;
+}
+
+.stopwatch-controls {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+/* Todo List Styles */
+.todo-container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.todo-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#todo-input {
+    flex: 1;
+    padding: 8px;
+    border: 5px solid #002246;
+    border-radius: 80px;
+}
+
+#todo-list {
+    list-style: none;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    gap: 10px;
+}
+
+.todo-item input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.todo-item.completed span {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.delete-btn {
+    margin-left: auto;
+    color: #ff4444;
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 5px;
+}
+
+/* Button Styles */
+button {
+    padding: 18px 16px;
+    border: none;
+    border-radius: 80px;
+    background-color: #002246;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+} 

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three In One</title>
+    <link rel="stylesheet" href="styles.css">
+<script defer data-domain="threeinone.tiiny.site" src="https://analytics.tiiny.site/js/plausible.js"></script><script type="text/javascript" src="https://tiiny.host/ad-script.js"></script></head>
+<body>
+    <div class="container">
+        <!-- Fortune Generator Section -->
+        <section id="fortune-section">
+            <h2>Fortune Generator</h2>
+            <div class="fortune-container">
+                <div id="fortune-box">
+                    <p id="fortune-text"></p>
+                </div>
+                <div class="fortune-controls">
+                    <button id="font-color-btn">Change Font Color</button>
+                    <button id="bg-color-btn">Change Background</button>
+                    <button id="border-color-btn">Change Border</button>
+                    <button id="font-style-btn">Change Font Style</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stopwatch Section -->
+        <section id="stopwatch-section">
+            <h2>Stopwatch</h2>
+            <div class="stopwatch-container">
+                <div id="display">00:00</div>
+                <div class="stopwatch-controls">
+                    <button id="start-btn">Start</button>
+                    <button id="stop-btn">Stop</button>
+                    <button id="reset-btn">Reset</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Todo List Section -->
+        <section id="todo-section">
+            <h2>Todo List</h2>
+            <div class="todo-container">
+                <div class="todo-input">
+                    <input type="text" id="todo-input" placeholder="Add a new task...">
+                    <button id="add-todo-btn">Add</button>
+                </div>
+                <ul id="todo-list"></ul>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
